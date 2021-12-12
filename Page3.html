@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+        <meta charset="utf-8">
+        <title>Projet/Jeu ROG</title>
+        <link rel="stylesheet" href="Mapage.css" media="all" />
+        <link rel="icon" type="image/png" sizes="16x16" href="Images_Loann/roglogo2.png">
+		<link rel="apple-touch-icon" sizes="57x57" href="/images_favicon_page3/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/images_favicon_page3/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/images_favicon_page3/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/images_favicon_page3/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/images_favicon_page3/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/images_favicon_page3/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/images_favicon_page3/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/images_favicon_page3/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images_favicon_page3/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/images_favicon_page3/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images_favicon_page3/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/images_favicon_page3/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images_favicon_page3/favicon-16x16.png">
+		<link rel="manifest" href="/images_favicon_page3/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+		<div id="page3">
+			<h1>Jeu de cartes ROG</h1>
+			<p class="soustitre">(crée par Loann Saadaoui, Antoine Carlos-Marques et Johan Dupont)</p>
+
+			<script>
+                function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+                }
+            </script>
+
+			<div class="changementstyle">
+			<img onclick="myFunction()" class="imagebtn" src="Images_Loann/journuit.png" alt="Nouveau !">
+			</div>
+
+			<div class="partie1">
+				<h2>Présentation du jeu :</h2>
+
+				<p class="flotte"><img class="roglogo1" src="Images_Loann/roglogo.png" alt="Nouveau !" /></p>
+
+				<p class="content">Le jeu ROG (Red Orange Green) se joue jusqu'à 6 personnes, le but étant de ne plus avoir de cartes ou d'avoir le moins de points possible.<br>
+				La présentation des cartes est juste en dessous, chaque carte vaut le nombre de points qu'il est inscrit sur son recto, les cartes vertes multiplient par 1 les points, les cartes oranges multiplient par 2 et les rouges multiplient par 3.<br>
+				Les cartes spéciales, il y a 3 styles, le Joker qui remplace une carte peu importe le chiffre peu importe la couleur, la carte Transfert qui permet d'échanger soit une de ses cartes avec quelqu'un d'autre, soit deux cartes de deux autres personnes et la carte Bloque qui permet de bloquer une carte chez quelqu'un d'autre, sa carte ne peut plus être touchée et compte forcément dans le calcul des points final. Les cartes spéciales valent 25 points alors ne vaut mieux pas les garder !<br>
+				Début du jeu : Chaque joueur possède 3 cartes et 3 cartes sont disposées face visible sur la table, le principe étant de faire des familles de chiffre sur la table. C'est le seul moyen de se débarasser de ses cartes car il faut reprendre une carte si l'on ne pouvait pas jouer sur la table (de maière à toujours avoir 3 cartes dans son jeu à moins de s'être débarassé de l'une de ses cartes en la posant sur la table si le chiffre correspondait). Il y a donc une pioche et une poubelle.<br>
+				Dès qu'une famille est finit sur la table, elle disparait et le joueur ayant mis la dernière carte rejoue.<br>
+				Le jeu s'arrete donc dès qu'un joueur n'a plus de cartes ou qu'il dit "stop" quand il pense avoir moins de points que les autres.<br>
+				S'il se trompe, ses points sont multipliés par 5.<br>
+				Amusez-vous, que le meilleur gagne !</p>
+			</div>
+
+			<div class="partie2">
+
+				<h2 class="titrerog2">Premier protoype :</h2>
+
+				<div class="tableau">
+					<table class="tableaucartes">
+				    	<thead> <!-- En-tête du tableau -->
+					        <tr>
+					            <th>Carte vu de dos</th>
+					            <th>Cartes vertes</th>
+					            <th>Cartes oranges</th>
+					            <th>Cartes rouges</th>
+					            <th>Cartes spéciales</th>
+					        </tr>
+				   		</thead>
+				    	<tbody> <!-- Corps du tableau -->
+				   	  	    <tr>
+					   	   	   <td><img class="photos" src="Images_Loann/imgdos001.jpg" alt="Nouveau !"></td>
+					           <td><img class="photos" src="Images_Loann/imgvert003.jpg" alt="Nouveau !"></td>
+					           <td><img class="photos" src="Images_Loann/imgorange004.jpg" alt="Nouveau !"></td>
+					           <td><img class="photos" src="Images_Loann/imgrouge005.jpg" alt="Nouveau !"></td>
+					           <td><img class="photos" src="Images_Loann/imgspé002.jpg" alt="Nouveau !"></td>
+				   	   		</tr>
+				  		</tbody>
+				 	</table>
+			    </div>
+			</div>
+			<footer>
+				<a class="finpage" href="index.html">Retour Accueil 🏠</a>
+				<a class="pagesuivante" href="Page4.html">Page Suivante ▶</a>
+			</footer>			
+		</div>
+	</body>
+</html>

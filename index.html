@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+	<html lang="fr">
+ 		<head>
+       		<meta charset="utf-8">
+       		<title>Ma page </title>
+		    <link rel="stylesheet" id="stylesheet" href="Mapage.css" media="all"/>
+		    <link rel="icon" type="image/png" sizes="16x16" href="Images_Loann/PhotoProfil.jpg">
+			<link rel="apple-touch-icon" sizes="57x57" href="/images_favicon_page1/apple-icon-57x57.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="/images_favicon_page1/apple-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="/images_favicon_page1/apple-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="/images_favicon_page1/apple-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="/images_favicon_page1/apple-icon-114x114.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="/images_favicon_page1/apple-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="/images_favicon_page1/apple-icon-144x144.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="/images_favicon_page1/apple-icon-152x152.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="/images_favicon_page1/apple-icon-180x180.png">
+			<link rel="icon" type="image/png" sizes="192x192"  href="/images_favicon_page1/android-icon-192x192.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="/images_favicon_page1/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="96x96" href="/images_favicon_page1/favicon-96x96.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="/images_favicon_page1/favicon-16x16.png">
+			<link rel="manifest" href="/images_favicon_page1/manifest.json">
+			<meta name="msapplication-TileColor" content="#ffffff">
+			<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+			<meta name="theme-color" content="#ffffff">
+ 		</head>
+ 		<body>
+ 			<script>
+                function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+                }
+            </script>
+
+ 			<div id="page1">
+				<h1>Accueil</h1>
+				<div class="menu">
+					<nav>
+	  					<ul>
+						    <li class="deroulant"><a href="#">Projets &ensp;</a>
+						      <ul class="sous">
+						        <li><a href="Page3.html">ROG</a></li>
+						        <li><a href="Page4.html">Musique</a></li>
+						      </ul>
+						    </li>
+						    <li class="deroulant"><a href="#">Plus sur les loisirs &ensp;</a>
+						      <ul class="sous">
+						        <li><a href="Page5.html">Tennis</a></li>
+						      </ul>
+						    </li>
+						    <li><a href="Page7.html">Mon CV</a></li>
+						    <li><a href="Page8.html">Contact</a></li>
+					    </ul>
+					</nav>
+				</div>
+
+				<div class="changementstyle">
+					<img onclick="myFunction()" class="imagebtn" src="Images_Loann/journuit.png" alt="Nouveau !">
+				</div>
+
+				<div class="conteneur1">
+					<h2 class="titre2">Présentation: </h2>
+
+					<p class="flotte"><img class="image" src="Images_Loann/PhotoProfil.jpg" alt="Nouveau !" /></p>
+	  				<p class="texte1">Bienvenue, sur ma page personnelle.<br> Vous êtes chanceux si vous êtes arrivés jusque là !<br> Je suis Lann Saadaoui, un étudiant au programme PGE de Kedge Business School, je viens d'une banlieue parisienne dans le 91. <br> De nature determinée et entreprenante je suis motivé à réussir tout ce que j'entreprends.<br> Je suis agréable et bon vivant (c'est ce qu'on dit de moi), mes motivations sont mes proches, le sport et la réussite.<br> A l'aise en langues, français et économie, je suis très sociable et adore rencontrer de nouvelles personnes.<br>
+					Concernant ma page, un menu déroulant est disponible en dessous de l'accueil de manière à se déplacer aisément et en bas de chaque page des possibilités de revenir ou passer à la page suivante. Un formulaire pour donner votre avis est aussi disponible en bas de page .. <br> Enjoy !</p>
+				</div>
+
+				<div class="conteneur2">
+					<h3>Présentation des loisirs: </h3>
+
+					<p class="flotte2"><img class="imagebeach" src="Images_Loann/photoTennis.jpg" alt="Nouveau !" /></p>
+					<p class="texte2">Je pratique le tennis depuis mes neuf ans et en ait fait en compétition pendant plus de 10 ans, j'en suis donc à ma 11ème année. Passionné par ce sport, j'en fais en compétition et au rythme de 2 entraînements par semaine.<br> J'ai réalisé plusieurs tournois avec quelques modestes <a href="Page5.html">performances</a>. Jusqu'à ce que je prenne une pause pour mes études j'étais classé 15/2.<br> J'ai une deuxième passion plutôt de l'ordre du passe-temps étant le rap (en tant qu'auditeur seulement...!). </p>
+				</div>
+
+				<div class="conteneur3">
+	 				<h5 class="titreformulaire">Formulaire: </h5>
+	 		
+					<div class="cases">
+						<form action="mailto:loann.saadaoui@kedegebs.com?content-type=text/html&amp;subject=LoannWebsiteMessage" method="post" enctype="text/plain">
+
+		                    <label class="input-title1" for="prenom">Votre prenom : *</label>
+		                    <label class="input-title2" for="nom">Votre nom : *</label><br>
+		                    <input type="text" name="Prenom" id="prenom" maxlength="25" required="">
+		                    <input type="text" name="Nom" id="nom" maxlength="40" required=""><br>
+		                    <label class="input-title3" for="textarea">Impressions/Améliorations sur la page ? : *</label><br>
+		                    <textarea name="Message" id="textarea" style="margin: 0px; width: 250px; height: 100px;">Ex: Ce site est super..</textarea><br><br>
+	                    	<input type="submit" value="Envoyer" class="input-submit">
+
+	               	   </form>
+	    	    	</div>
+	     			<p class="textebas">* Les champs sont obligatoires</p>
+				</div>
+			</div>
+		</body>
+	</html>
